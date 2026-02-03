@@ -13,22 +13,16 @@ function OptanonWrapper() { }
 </script>
 <!-- OneTrust Cookies Consent Notice end for kartikdevkraft.github.io/onetrust-cookie-demo/ -->
 
-<!-- Google analytics (Performance Demo) -->
-  <script
-  type="text/plain"
-  class="optanon-category-C0002">
-  console.log("GA script loaded after consent");
-  document.cookie = "_ga=GA_DEMO; path=/";
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TEST12345"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TEST12345');
 </script>
 
 
-<!-- Meta Pixel (Targeting - Demo) -->
-<script
-  type="text/plain"
-  class="optanon-category-C0004">
-  console.log("Meta Pixel script loaded after consent");
-  document.cookie = "_fbp=FB_DEMO; path=/";
-</script>
+
 
 </head>
 <body>
